@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    height: 40%;
+    background-color: rgb(219, 191, 245);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+    border-radius: 5px;
+}
+.text{
+    width: 90%;
+    height: 20%;
+    border-radius: 5px;
+    border: 2px solid rgb(67, 14, 117);
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+.btn{
+    width: 90%;
+    height: 20%;
+    border-radius: 5px;
+    border: 2px solid rgb(67, 14, 117);
+    background-color: rgb(114, 62, 161);
+    color: white;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: rgb(78, 26, 126);
+    cursor: pointer;
+}
+p{
+    color: rgb(22, 5, 39);
+}
